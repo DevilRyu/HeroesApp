@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div className="container-fluid">
                 <Link
                     className="navbar-brand"
-                    to="/"
+                    to="/HeroesApp"
                 >
                     Heroes
                 </Link>
@@ -22,7 +22,7 @@ export const Navbar = () => {
                             activeClassName="active"
                             className="nav-item nav-link"
                             exact
-                            to="/marvel"
+                            to="/HeroesApp/marvel"
                         >
                             Marvel
                         </NavLink>
@@ -31,7 +31,7 @@ export const Navbar = () => {
                             activeClassName="active"
                             className="nav-item nav-link"
                             exact
-                            to="/dc"
+                            to="/HeroesApp/dc"
                         >
                             DC
                         </NavLink>
@@ -39,7 +39,7 @@ export const Navbar = () => {
                             activeClassName="active"
                             className="nav-item nav-link"
                             exact
-                            to="/search"
+                            to="/HeroesApp/search"
                         >
                             Search
                         </NavLink>
@@ -50,7 +50,7 @@ export const Navbar = () => {
                                 activeClassName="active"
                                 className="nav-item nav-link"
                                 exact
-                                to="/login"
+                                to="/HeroesApp/login"
                             >
                                 Logout
                     </NavLink>
