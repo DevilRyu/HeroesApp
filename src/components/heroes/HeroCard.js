@@ -15,7 +15,7 @@ const HeroCard = ({ id, superhero, alter_ego, first_appearance, characters }) =>
                     <p className="card-text"><strong>Alter Ego:</strong> {alter_ego}</p>
                     <p className="card-text"><strong>Characters:</strong>  { (characters.length>35)? (characters.slice(0,35))+'...':(characters)} </p> 
                     
-                    <Link to={`./HeroesApp/hero/${id}`}>
+                    <Link to={`/HeroesApp/hero/${id}`}>
                         Más..
                     </Link>
                 </div>
