@@ -9,13 +9,13 @@ const HeroCard = ({ id, superhero, alter_ego, first_appearance, characters }) =>
     return (
         <div className="col" >
             <div className="card">
-                <img src={`../assets/heroes/${id}.jpg`} className="card-img-top" alt={superhero} />
+                <img src={`/HeroesApp/assets/heroes/${id}.jpg`} className="card-img-top" alt={superhero} />
                 <div className="card-body">
                     <h5 className="card-title">{superhero}</h5>
                     <p className="card-text"><strong>Alter Ego:</strong> {alter_ego}</p>
                     <p className="card-text"><strong>Characters:</strong>  { (characters.length>35)? (characters.slice(0,35))+'...':(characters)} </p> 
                     
-                    <Link to={`./hero/${id}`}>
+                    <Link to={`./HeroesApp/hero/${id}`}>
                         Más..
                     </Link>
                 </div>
