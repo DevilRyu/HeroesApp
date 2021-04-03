@@ -9,7 +9,7 @@ const HeroCard = ({ id, superhero, alter_ego, first_appearance, characters }) =>
     return (
         <div className="col" >
             <div className="card">
-                <img src={`/HeroesApp/assets/heroes/${id}.jpg`} className="card-img-top" alt={superhero} />
+                <img src={`/../assets/heroes/${id}.jpg`} className="card-img-top" alt={superhero} />
                 <div className="card-body">
                     <h5 className="card-title">{superhero}</h5>
                     <p className="card-text"><strong>Alter Ego:</strong> {alter_ego}</p>
