@@ -1,0 +1,1294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DashBoardRoutes /> debe de mostrase correctamente 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark "
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/HeroesApp"
+        onClick={[Function]}
+      >
+        Heroes
+      </a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-bs-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul
+          className="navbar-nav me-auto mb-2 mb-lg-0"
+        >
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/HeroesApp/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/HeroesApp/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/HeroesApp/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </ul>
+        <div
+          className="d-flex"
+        >
+          <ul
+            className="navbar-nav ml-auto"
+          >
+            <span
+              className="nav-item nav-link text-info"
+            >
+              Diego
+            </span>
+            <button
+              className="btn nav-item nav-link"
+              onClick={[Function]}
+            >
+              Logout
+            </button>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="container mt-2"
+  >
+    <div
+      className="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeIn"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Batman"
+            className="card-img-top"
+            src="/../assets/heroes/dc-batman.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Batman
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Bruce Wayne
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Bruce Wayne
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-batman"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Detective Comics #27
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Superman"
+            className="card-img-top"
+            src="/../assets/heroes/dc-superman.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Superman
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Kal-El
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Kal-El
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-superman"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Action Comics #1
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Flash"
+            className="card-img-top"
+            src="/../assets/heroes/dc-flash.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Flash
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Jay Garrick
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Jay Garrick, Barry Allen, Wally Wes...
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-flash"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Flash Comics #1
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Green Lantern"
+            className="card-img-top"
+            src="/../assets/heroes/dc-green.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Green Lantern
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Alan Scott
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Alan Scott, Hal Jordan, Guy Gardner...
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-green"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              All-American Comics #16
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Green Arrow"
+            className="card-img-top"
+            src="/../assets/heroes/dc-arrow.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Green Arrow
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Oliver Queen
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Oliver Queen
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-arrow"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              More Fun Comics #73
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Wonder Woman"
+            className="card-img-top"
+            src="/../assets/heroes/dc-wonder.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Wonder Woman
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Princess Diana
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Princess Diana
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-wonder"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              All Star Comics #8
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Martian Manhunter"
+            className="card-img-top"
+            src="/../assets/heroes/dc-martian.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Martian Manhunter
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              J'onn J'onzz
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Martian Manhunter
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-martian"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Detective Comics #225
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Robin/Nightwing"
+            className="card-img-top"
+            src="/../assets/heroes/dc-robin.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Robin/Nightwing
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Dick Grayson
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Dick Grayson
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-robin"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Detective Comics #38
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Blue Beetle"
+            className="card-img-top"
+            src="/../assets/heroes/dc-blue.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Blue Beetle
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Dan Garret
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Dan Garret, Ted Kord, Jaime Reyes
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-blue"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Mystery Men Comics #1
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Black Canary"
+            className="card-img-top"
+            src="/../assets/heroes/dc-black.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Black Canary
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Dinah Drake
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Dinah Drake, Dinah Lance
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/dc-black"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Flash Comics #86
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Spider Man"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-spider.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Spider Man
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Peter Parker
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Peter Parker
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-spider"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Amazing Fantasy #15
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Captain America"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-captain.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Captain America
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Steve Rogers
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Steve Rogers
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-captain"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Captain America Comics #1
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Iron Man"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-iron.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Iron Man
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Tony Stark
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Tony Stark
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-iron"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Tales of Suspense #39
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Thor"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-thor.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Thor
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Thor Odinson
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Thor Odinson
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-thor"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Journey into Myster #83
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Hulk"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-hulk.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Hulk
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Bruce Banner
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Bruce Banner
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-hulk"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              The Incredible Hulk #1
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Wolverine"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-wolverine.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Wolverine
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              James Howlett
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              James Howlett
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-wolverine"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              The Incredible Hulk #180
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Daredevil"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-daredevil.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Daredevil
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Matthew Michael Murdock
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Matthew Michael Murdock
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-daredevil"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Daredevil #1
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Hawkeye"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-hawkeye.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Hawkeye
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Clinton Francis Barton
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Clinton Francis Barton
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-hawkeye"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              Tales of Suspense #57
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Cyclops"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-cyclops.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Cyclops
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Scott Summers
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Scott Summers
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-cyclops"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              X-Men #1
+            </small>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <img
+            alt="Silver Surfer"
+            className="card-img-top"
+            src="/../assets/heroes/marvel-silver.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Silver Surfer
+            </h5>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Alter Ego:
+              </strong>
+               
+              Norrin Radd
+            </p>
+            <p
+              className="card-text"
+            >
+              <strong>
+                Characters:
+              </strong>
+                
+              Norrin Radd
+               
+            </p>
+            <a
+              href="/HeroesApp/hero/marvel-silver"
+              onClick={[Function]}
+            >
+              Más..
+            </a>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              <strong>
+                Firt Appearance:
+              </strong>
+               
+              The Fantastic Four #48
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
